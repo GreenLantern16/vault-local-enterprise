@@ -125,11 +125,8 @@ vault operator unseal <your-unseal-key>
 #Use this command to log into Vault as Root
 vault login <your-root-token>
  
-#Use this command to license your Vault enterprise binary
-vault write /sys/license text="<your-license-key"
- 
-#Use this command to verify the license was applied
-vault read /sys/license
+#The Vault CLI Command is deprciated place licnese in path and run vault
+
 ```
 
 
