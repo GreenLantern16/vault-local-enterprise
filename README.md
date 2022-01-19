@@ -1,5 +1,12 @@
 ## Run a Local Vault Instance (Enterprise) 
 
+
+![889D658B-012A-469B-8C22-BFD069C2F270](https://user-images.githubusercontent.com/88564478/150195290-efdcaf07-8c7d-47f3-9727-d61887b2bb5c.jpeg)
+
+
+
+
+
 **Create directory Structure (Example)**
 
 
@@ -16,6 +23,18 @@ mkdir /Users/<your-user-name>/vault_local/data
 **Download existing Enterprise Binaries**
 
 Pay Attention it should look like this URL: https://releases.hashicorp.com/
+
+![6904D405-7EA2-4438-9BCD-303359BB1D29](https://user-images.githubusercontent.com/88564478/150195272-c09a690a-7af3-4ab5-8f05-7d3267df5df5.jpeg)
+
+
+
+
+
+![BA25EF5C-FE90-4E93-9F08-DB8FBA9562A0_4_5005_c](https://user-images.githubusercontent.com/88564478/150195296-7113cab1-76ae-424e-b421-7af531c5f2e6.jpeg)
+
+
+
+
 
 
 ``
