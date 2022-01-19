@@ -68,8 +68,7 @@ nano vault-config.hcl
 ### Configure Vault for Local Storage Backend
 
 
-``
-
+```
 storage "file" {
   path    = "/Users/<your-user-name>/vault-enterprise/vault_local/data"
 }
@@ -81,7 +80,7 @@ listener "tcp" {
  address     = "0.0.0.0:8200"
  tls_disable = 1
 }
-``
+```
 
 
 ### Start Vault for the First Time 
@@ -104,7 +103,7 @@ Add this to make your local use easier
 
 
 
-``
+```
 
 #Use this command to start the Vault binary and reference the config.hcl file
 sudo vault server -config vault-config.hcl
@@ -130,7 +129,7 @@ vault write /sys/license text="<your-license-key"
  
 #Use this command to verify the license was applied
 vault read /sys/license
-``
+```
 
 
 
