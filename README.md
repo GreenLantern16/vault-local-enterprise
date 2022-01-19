@@ -15,10 +15,11 @@ mkdir /Users/<your-user-name>/vault_local/data
 
 **Download existing Enterprise Binaries**
 
-Pay Attention it should look like this: 
+Pay Attention it should look like this URL: https://releases.hashicorp.com/
+
 
 ``
-https://releases.hashicorp.com/
+click on the correct version or curl it send to your working directory
 ``  
 
 You may already have Vault OSS installed; ensure you create a soft link and move the binary - for example do:
