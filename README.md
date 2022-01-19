@@ -69,6 +69,7 @@ nano vault-config.hcl
 
 
 ``
+
 storage "file" {
   path    = "/Users/<your-user-name>/vault-enterprise/vault_local/data"
 }
@@ -104,6 +105,7 @@ Add this to make your local use easier
 
 
 ``
+
 #Use this command to start the Vault binary and reference the config.hcl file
 sudo vault server -config vault-config.hcl
  
