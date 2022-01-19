@@ -49,7 +49,7 @@ Confirm with:
 vault -v
 ``
 
-obtain your license contact HashiCorp SE or admin
+obtain your license contact HashiCorp SE or admin URL: https://license.hashicorp.services/customers
 
 
 ``
@@ -135,7 +135,7 @@ vault read /sys/license
 
 
 ``
-Open a browser and go to http://127.0.0.1:8200``
+Open a browser and go to http://127.0.0.1:8200
 ``
 
 
