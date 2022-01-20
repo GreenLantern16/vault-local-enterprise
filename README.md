@@ -125,6 +125,12 @@ Add this to make your local use easier
 
 ```
 
+#Set env vars for Vault if needed 
+
+export VAULT_ADDR='http://127.0.0.1:8200'
+
+
+
 #Use this command to start the Vault binary and reference the config.hcl file
 sudo vault server -config vault-config.hcl
  
